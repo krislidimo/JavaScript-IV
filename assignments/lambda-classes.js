@@ -60,10 +60,10 @@ class Student extends Person {
 	}
 
 	graduate() {
-		if (this.student > 70) {
-			console.log(`Congratulations ${this.student}! You've Graduated!`);
+		if (this.grade > 70) {
+			console.log(`Congratulations ${this.name}! You've Graduated!`);
 		} else {
-			console.log(`Ready, you are not. Keep trying, ${this.student} must.`)
+			console.log(`Ready, you are not. Keep trying, ${this.name} must.`)
 		}
 	}
 }//Student
@@ -177,3 +177,5 @@ jack.changeGrade(alex);
 jack.changeGrade(alex);
 jack.changeGrade(alex);
 jack.changeGrade(alex);
+
+alex.graduate();
